@@ -552,3 +552,33 @@ nav a {
     page-break-inside: avoid;
   }
 }
+
+/* Router Page Styles */
+.route-list {
+  list-style: none;
+  padding-left: 0;
+  margin: var(--nb-space-4) 0;
+}
+
+.route-list li {
+  margin: var(--nb-space-2) 0;
+}
+
+.subtitle {
+  color: var(--nb-text-muted);
+  margin-top: -0.5rem;
+  margin-bottom: var(--nb-space-6);
+}
+
+.note {
+  color: var(--nb-text-muted);
+  font-size: 0.95rem;
+  margin-top: var(--nb-space-6);
+}
+
+.footer {
+  text-align: center;
+  margin-top: var(--nb-space-8);
+  color: var(--nb-text-muted);
+}
+
